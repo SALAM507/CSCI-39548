@@ -32,6 +32,8 @@ h2 {
 }
 
 .threevert {
+  width: 100%;
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -63,6 +65,10 @@ h2 {
   background-color: orange;
 }
 
+.red {
+  background-color: red;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -75,7 +81,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -87,22 +93,43 @@ h2 {
   background-color: #fff;
 }
 
+#white{
+  background-color: white;
+}
+
 .black {
   background-color: #000;
+}
+
+.dark-red{
+  background-color: #B5002D;
+}
+
+.dark-blue{
+  background-color: #2E2A4C;
 }
 
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
   /* TODO */
+  width: 100%;
+  height: 15%;
+  color: dark-red;
 }
 
 .thailand-white {
   /* TODO */
+  width: 100%;
+  height: 15%;
+  color: white;
 }
 
 .thailand-blue {
   /* TODO */
+  width: 100%;
+  height: 40%;
+  color: dark-blue;
 }
 
 /* END QUESTION 2 */
@@ -121,6 +148,28 @@ h2 {
   background-color: #e10017;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.romanian-blue{
+  width: 33.3%;
+  height:100%;
+  color: romania-blue;
+}
+
+.romanian-yellow{
+  width: 33.3%;
+  height:100%;
+  color: romania-yellow;
+}
+
+.romanian-red{
+  width: 33.3%;
+  height: 100%;
+  color: romania-red;
+}
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
